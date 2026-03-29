@@ -25,11 +25,11 @@ function App() {
 
       <h2>{count}</h2>
 
-      <div className="buttons">
+      
         <button onClick={increment}>Increment</button>
         <button onClick={decrement}>Decrement</button>
         <button onClick={reset}>Reset</button>
-      </div>
+      
 
       {count === 0 && <p className="msg">Minimum limit reached</p>}
     </div>
